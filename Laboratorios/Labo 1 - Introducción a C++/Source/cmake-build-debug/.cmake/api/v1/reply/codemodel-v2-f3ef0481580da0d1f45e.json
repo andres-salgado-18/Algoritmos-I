@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Source",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Source_EJ1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Source_EJ1-Debug-59211373557cfca77ed9.json",
+					"name" : "Source_EJ1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Source_EJ2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Source_EJ2-Debug-033f0c6ee0036fc379b0.json",
+					"name" : "Source_EJ2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Source_EJ3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Source_EJ3-Debug-f0ca1a8403574dc12cd5.json",
+					"name" : "Source_EJ3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Source_EJ4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Source_EJ4-Debug-694ed4136e89cdf05765.json",
+					"name" : "Source_EJ4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Source_EJ5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Source_EJ5-Debug-4a01d70b72294f7d8cbd.json",
+					"name" : "Source_EJ5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Source_EJ6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Source_EJ6-Debug-38364a70ce1de1857359.json",
+					"name" : "Source_EJ6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Source_EJ7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Source_EJ7-Debug-01e53e2c46a26be3615c.json",
+					"name" : "Source_EJ7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Source_EJ8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Source_EJ8-Debug-c65493e53d719b71c7bb.json",
+					"name" : "Source_EJ8",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/AFSP/Documents/University/Subjects/2º C/Algo I/LABS/Labo 1/Source/cmake-build-debug",
+		"source" : "C:/Users/AFSP/Documents/University/Subjects/2º C/Algo I/LABS/Labo 1/Source"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
