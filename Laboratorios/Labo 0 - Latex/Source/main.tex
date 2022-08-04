@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{caratula}
+\input{Algo1Macros.tex}
+
+\title{Mi taller LaTeX}
+\author{Andrés S}
+\date{Abril 2022}
+
+\begin{document}
+%Caratula
+\titulo{Ejercicios LaTeX}
+\subtitulo{Guía introductoria}
+\fecha{09/04/22}
+\materia{Algoritmos y Estructuras de Datos I}
+\integrante{Salgado, Andrés}{1439/21}{andres.salgado.1812@gmail.com}
+
+
+
+\maketitle
+
+\vspace{5mm} %5mm vertical space
+\section{Ejercicio}
+        \paragraph{El factorial de un entero positivo n se define como: n! = $\prod_{i=1}^ni$ \\
+         El factorial de 5 es: 5! = $\prod_{i=1}^5i = 1 \times 2 \times 3 \times 4 \times 5 = 120$ \hfill \break}
+
+\vspace{5mm} %5mm vertical space
+
+\section{Ejercicio}
+\subsection{Especificación}
+    \begin{proc}{factorial}{\In n: \ent , \Out resultado: \ent}{}{}
+    \pre{n \geq 0}
+    \post{({n = 0  \rightarrow resultado = 1}) \wedge (n > 0 \rightarrow resultado = \prod_{k=1}^nk)}
+
+\vspace{5mm} %5mm vertical space
+
+    \end{proc}
+\section{Ejercicio}
+
+    \pred{todosPrimos}{s \TLista{\ent}}{(\forall i:\ent)(0 \leq i < |s| \implicaLuego esPrimo(s[i])) }
+\vspace{5mm} %5mm vertical space
+    \pred{alMenosUnPrimo}{s \TLista{\ent}}{(\exists i:\ent)(0 \leq |s| \yLuego esPrimo(s[i])) }
+\vspace{5mm} %5mm vertical space
+
+\section{Ejercicio}
+
+\aux{sumaPrimos}{s \TLista{\ent}}{\ent}{$\sum_{i=0}^{|s|-1}$ if $esPrimo(s[i])$ then $s[i]$ else 0 fi;}
+
+
+
+
+
+\end{document}
