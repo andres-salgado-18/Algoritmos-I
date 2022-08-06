@@ -316,6 +316,39 @@ build src_EJ8.exe: CXX_EXECUTABLE_LINKER__src_EJ8_Debug CMakeFiles/src_EJ8.dir/e
   TARGET_IMPLIB = libsrc_EJ8.dll.a
   TARGET_PDB = src_EJ8.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target src_EJ9
+
+
+#############################################
+# Order-only phony target for src_EJ9
+
+build cmake_object_order_depends_target_src_EJ9: phony || CMakeFiles/src_EJ9.dir
+
+build CMakeFiles/src_EJ9.dir/ejercicio9.cpp.obj: CXX_COMPILER__src_EJ9_Debug C$:/Users/AFSP/Documents/University/Subjects/2º$ C/Algo$ I/LABS/Labo$ 2/src/ejercicio9.cpp || cmake_object_order_depends_target_src_EJ9
+  DEP_FILE = CMakeFiles\src_EJ9.dir\ejercicio9.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\src_EJ9.dir
+  OBJECT_FILE_DIR = CMakeFiles\src_EJ9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target src_EJ9
+
+
+#############################################
+# Link the executable src_EJ9.exe
+
+build src_EJ9.exe: CXX_EXECUTABLE_LINKER__src_EJ9_Debug CMakeFiles/src_EJ9.dir/ejercicio9.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\src_EJ9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = src_EJ9.exe
+  TARGET_IMPLIB = libsrc_EJ9.dll.a
+  TARGET_PDB = src_EJ9.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -346,6 +379,8 @@ build src_EJ7: phony src_EJ7.exe
 
 build src_EJ8: phony src_EJ8.exe
 
+build src_EJ9: phony src_EJ9.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -354,7 +389,7 @@ build src_EJ8: phony src_EJ8.exe
 #############################################
 # Folder: C:/Users/AFSP/Documents/University/Subjects/2º C/Algo I/LABS/Labo 2/src/cmake-build-debug
 
-build all: phony src_EJ1.exe src_EJ2.exe src_EJ3.exe src_EJ4.exe src_EJ5.exe src_EJ6.exe src_EJ7.exe src_EJ8.exe
+build all: phony src_EJ1.exe src_EJ2.exe src_EJ3.exe src_EJ4.exe src_EJ5.exe src_EJ6.exe src_EJ7.exe src_EJ8.exe src_EJ9.exe
 
 # =============================================================================
 # Built-in targets

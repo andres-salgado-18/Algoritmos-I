@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -104,6 +106,13 @@
 					"id" : "src_EJ8::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-src_EJ8-Debug-70fdbb89473484e25b99.json",
 					"name" : "src_EJ8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_EJ9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_EJ9-Debug-3660d9b0d410535f8a2d.json",
+					"name" : "src_EJ9",
 					"projectIndex" : 0
 				}
 			]

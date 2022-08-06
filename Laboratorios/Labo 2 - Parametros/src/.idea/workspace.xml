@@ -10,6 +10,7 @@
       <config projectName="src" targetName="src_EJ4" />
       <config projectName="src" targetName="src_EJ5" />
       <config projectName="src" targetName="src_EJ8" />
+      <config projectName="src" targetName="src_EJ9" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -51,7 +52,7 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="CMake Application.src_EJ8">
+  <component name="RunManager" selected="CMake Application.src_EJ9">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -97,6 +98,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="src_EJ9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="src" TARGET_NAME="src_EJ9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="src" RUN_TARGET_NAME="src_EJ9">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.src_EJ1" />
       <item itemvalue="CMake Application.src_EJ2" />
@@ -106,6 +112,7 @@
       <item itemvalue="CMake Application.src_EJ6" />
       <item itemvalue="CMake Application.src_EJ7" />
       <item itemvalue="CMake Application.src_EJ8" />
+      <item itemvalue="CMake Application.src_EJ9" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -116,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659736559456</updated>
-      <workItem from="1659736560770" duration="5612000" />
+      <workItem from="1659736560770" duration="6359000" />
     </task>
     <servers />
   </component>
