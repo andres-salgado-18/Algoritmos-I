@@ -1,0 +1,9 @@
+# ninja log v5
+11	150	6818836443796514	CMakeFiles/LaboTesting.dir/ej1/esPrimo.cpp.obj	e45b97f20f975a2a
+1	1951	6818836461970580	CMakeFiles/LaboTesting.dir/main.cpp.obj	6f973ddab1100ced
+24	2199	6818836464473870	lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	b67584559ef0ca00
+6	2464	6818836467117595	CMakeFiles/LaboTesting.dir/ej1/Test/esPrimoTest.cpp.obj	6f7a12c588821543
+20	12977	6818836572166171	lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	52a99b1bc0a25b04
+12980	15109	6818836593579375	lib/googletest-master/googlemock/gtest/libgtestd.a	829ee7deb282ccb2
+15110	15177	6818836594257833	lib/googletest-master/googlemock/gtest/libgtest_maind.a	9dd3933485fa778
+15178	17120	6818836613637675	LaboTesting.exe	cfd6f68a52fecf8f

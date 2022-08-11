@@ -1,9 +1,0 @@
-# ninja log v5
-56	613	6760749276449248	CMakeFiles/laboDebugging.dir/main.cpp.obj	2785a893d4e9f6df
-24	1159	6760749281944563	CMakeFiles/laboDebugging.dir/cases.cpp.obj	93b774faf53f7b3a
-1	1184	6760749282134045	CMakeFiles/laboDebugging.dir/ejercicios.cpp.obj	469118e24a4ca6c6
-1185	1433	6760749284517692	../laboDebugging.exe	c3575ec23236d6b6
-5	740	6760749946560528	CMakeFiles/laboDebugging.dir/ejercicios.cpp.obj	469118e24a4ca6c6
-740	955	6760749948654928	../laboDebugging.exe	c3575ec23236d6b6
-3	1076	6760751218295130	CMakeFiles/laboDebugging.dir/ejercicios.cpp.obj	469118e24a4ca6c6
-1077	1246	6760751219960665	../laboDebugging.exe	c3575ec23236d6b6
