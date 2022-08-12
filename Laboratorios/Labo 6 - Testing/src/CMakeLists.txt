@@ -9,7 +9,9 @@ include_directories(lib/googletest-master/googletest/include)
 
 set(SOURCE_FILES main.cpp
         ej1/esPrimo.cpp
-        ej1/Test/esPrimoTest.cpp)
+        ej1/Test/esPrimoTest.cpp
+        ej1/puntaje.cpp
+        ej1/Test/puntajeTEST.cpp)
 
 add_executable(LaboTesting ${SOURCE_FILES})
 

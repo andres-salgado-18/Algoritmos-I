@@ -23,7 +23,6 @@ CMake Deprecation Warning at lib/googletest-master/googletest/CMakeLists.txt:53 
   CMake that the project does not need compatibility with older versions.
 
 
--- Found PythonInterp: C:/Users/AFSP/AppData/Local/Programs/Python/Python38-32/python.exe (found version "3.8.3") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/AFSP/Documents/University/Subjects/2º C/Algo I/LABS/Labo 6/src/cmake-build-debug

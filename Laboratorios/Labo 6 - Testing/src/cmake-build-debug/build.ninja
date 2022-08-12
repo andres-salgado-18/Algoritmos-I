@@ -70,6 +70,20 @@ build CMakeFiles/LaboTesting.dir/ej1/Test/esPrimoTest.cpp.obj: CXX_COMPILER__Lab
   OBJECT_DIR = CMakeFiles\LaboTesting.dir
   OBJECT_FILE_DIR = CMakeFiles\LaboTesting.dir\ej1\Test
 
+build CMakeFiles/LaboTesting.dir/ej1/puntaje.cpp.obj: CXX_COMPILER__LaboTesting_Debug C$:/Users/AFSP/Documents/University/Subjects/2º$ C/Algo$ I/LABS/Labo$ 6/src/ej1/puntaje.cpp || cmake_object_order_depends_target_LaboTesting
+  DEP_FILE = CMakeFiles\LaboTesting.dir\ej1\puntaje.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem "C:/Users/AFSP/Documents/University/Subjects/2º C/Algo I/LABS/Labo 6/src/lib/googletest-master/googletest/include"
+  OBJECT_DIR = CMakeFiles\LaboTesting.dir
+  OBJECT_FILE_DIR = CMakeFiles\LaboTesting.dir\ej1
+
+build CMakeFiles/LaboTesting.dir/ej1/Test/puntajeTEST.cpp.obj: CXX_COMPILER__LaboTesting_Debug C$:/Users/AFSP/Documents/University/Subjects/2º$ C/Algo$ I/LABS/Labo$ 6/src/ej1/Test/puntajeTEST.cpp || cmake_object_order_depends_target_LaboTesting
+  DEP_FILE = CMakeFiles\LaboTesting.dir\ej1\Test\puntajeTEST.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem "C:/Users/AFSP/Documents/University/Subjects/2º C/Algo I/LABS/Labo 6/src/lib/googletest-master/googletest/include"
+  OBJECT_DIR = CMakeFiles\LaboTesting.dir
+  OBJECT_FILE_DIR = CMakeFiles\LaboTesting.dir\ej1\Test
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LaboTesting
@@ -78,7 +92,7 @@ build CMakeFiles/LaboTesting.dir/ej1/Test/esPrimoTest.cpp.obj: CXX_COMPILER__Lab
 #############################################
 # Link the executable LaboTesting.exe
 
-build LaboTesting.exe: CXX_EXECUTABLE_LINKER__LaboTesting_Debug CMakeFiles/LaboTesting.dir/main.cpp.obj CMakeFiles/LaboTesting.dir/ej1/esPrimo.cpp.obj CMakeFiles/LaboTesting.dir/ej1/Test/esPrimoTest.cpp.obj | lib/googletest-master/googlemock/gtest/libgtestd.a lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a || lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a
+build LaboTesting.exe: CXX_EXECUTABLE_LINKER__LaboTesting_Debug CMakeFiles/LaboTesting.dir/main.cpp.obj CMakeFiles/LaboTesting.dir/ej1/esPrimo.cpp.obj CMakeFiles/LaboTesting.dir/ej1/Test/esPrimoTest.cpp.obj CMakeFiles/LaboTesting.dir/ej1/puntaje.cpp.obj CMakeFiles/LaboTesting.dir/ej1/Test/puntajeTEST.cpp.obj | lib/googletest-master/googlemock/gtest/libgtestd.a lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a || lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a
   FLAGS = -g
   LINK_LIBRARIES = lib/googletest-master/googlemock/gtest/libgtestd.a  lib/googletest-master/googlemock/gtest/libgtest_maind.a  lib/googletest-master/googlemock/gtest/libgtestd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LaboTesting.dir
